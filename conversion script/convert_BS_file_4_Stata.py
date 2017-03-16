@@ -50,7 +50,7 @@ def convert (runRow):
         listOfTurtleDicts.append(turtleRow)
     return listOfTurtleDicts
 
-dirPath = '/Users/albertocottica/github/local/community-management-simulator/Data/'
+dirPath = '/Users/albertocottica/github/local/community-management-simulator-2/Data/'
 converted = []
 with open (dirPath + 'Online_communities_v3 intimacy-strength vs. policies-table.csv', 'r') as csvFile:
     for i in range (6):
